@@ -81,6 +81,11 @@
     justify-content: center;
 }
 
+.redes__sociais__instrutores{
+    color:unset;
+    text-decoration: underline;
+}
+
 .habilidades_logo{
         display: flex;
         justify-content: center;
@@ -114,7 +119,17 @@
             align-items: center;
         }
 
-
     }
     
-    
+    @media(max-width:450px){
+        .habilidades_icone{
+            height:60px;
+            width: 60px;
+        }
+
+        .interesses__icone{
+            height:60px;
+            width: 60px;
+        }
+
+    }
