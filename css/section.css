@@ -52,12 +52,16 @@
     border: var(--cor-terciaria) 8px solid;
 }
 
+
+
 .redes__sociais{
     display: flex;
     justify-content: center;
     gap: 20px;
     list-style-type: none;
 }
+
+
 
 
 
