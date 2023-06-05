@@ -1,0 +1,21 @@
+.rodape{
+    color: var(--cor-titulo);
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    font-size: 22px;
+    text-align: center;
+    flex-direction: column;
+    background-color: var(--cor-secundaria);
+}
+
+.rodape__redes{
+    color: inherit;
+    text-decoration: underline;
+}
+    
+.rodape__informacoes{
+    text-align: center;
+    padding: 40px;
+    gap: 20px;
+}

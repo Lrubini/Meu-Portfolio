@@ -1,0 +1,27 @@
+
+.cabecalho{
+    color: var(--cor-titulo);
+    padding: 30px 0;
+    gap:10%;
+    background-color: var(--cor-secundaria);
+}
+
+.menu__ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px 30px;
+    font-size: 1,9rem;
+}
+
+.li__junior{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+@media (max-width: 880px){
+    .corpo{
+        flex-direction: column-reverse;
+    }
+
+}

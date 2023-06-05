@@ -1,0 +1,14 @@
+:root{
+    --cor-primaria: #1B1919;
+    --cor-secundaria: #424242;
+    --cor-terciaria: #70872f;
+    --cor-texto: #CBE4DE;
+    --cor-titulo: #f0e396;
+
+}
+
+body {
+    background-color: var(--cor-primaria);
+    
+
+}

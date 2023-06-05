@@ -1,0 +1,63 @@
+
+.titulo__principal{
+    color: var(--cor-titulo);
+    font-size: 70px;
+  
+}
+
+.titulo__secundario{
+    color: var(--cor-titulo);
+    font-size: 25px;
+}
+
+.dados{
+    color:var(--cor-texto);
+    font-size: 22px;
+    padding:50px 0;
+
+}
+
+.all__dados{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.hard__skills{
+    text-align: justify;
+}
+
+.secao__sobre__mim{
+    text-align: justify;
+}
+
+.dados__li{
+    display: flex;
+    gap: 0 10px;
+}
+
+
+
+.dados__lista__img{
+    width: 35px;
+    
+}
+
+
+
+.imagem__perfil{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: var(--cor-terciaria) 8px solid;
+}
+
+.redes__sociais{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+}
+
+
+
