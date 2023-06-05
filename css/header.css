@@ -18,10 +18,11 @@
     color: inherit;
 }
 
-
-@media (max-width: 880px){
-    .corpo{
-        flex-direction: column-reverse;
+@media(max-width:770px){
+    .menu__ul{
+        flex-wrap: wrap;
+        font-size: 1,2rem;
     }
 
+    
 }
